@@ -1,0 +1,37 @@
+@import url(components/banner.css);
+@import url(components/container.css);
+@import url(components/button.css);
+@import url(components/avatar.css);
+@import url(components/footer.css);
+@import url(components/cards.css);
+@import url(components/header.css);
+@import url(components/try-it.css);
+@import url(components/reservation.css);
+
+
+body{
+background-color: rgb(0, 0, 0);
+font-size: 18px;
+font-family: 'Nunito', sans-serif;
+
+}
+
+
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }

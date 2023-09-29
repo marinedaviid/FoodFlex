@@ -1,0 +1,88 @@
+.reservation{
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
+
+.reservation h1{
+    font-family: 'Sedgwick Ave Display', cursive;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.resa {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-around;
+    align-items: flex-start;
+}
+
+.resa .dateguests .date {
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.resa .dateguests .guests {
+    display: flex;
+    justify-content: center;
+}
+
+.resa .persons {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0px 7px 15px #F57328;
+    padding: 10px;
+    width: 310px;
+    height: 86px;
+}
+
+.resa .persons .name{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.resa .persons .surname {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.resa .persons .number {
+    padding-bottom: 10px;
+}
+
+.resa .dateguests {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0px 7px 15px #F57328;
+    padding: 10px;
+    width: 370px;
+    float: right;
+}
+
+
+.resa .right .dateguests {
+    margin-bottom: 30px;
+}
+
+.resa .right a {
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0px 7px 15px #F57328;
+    padding: 10px;
+    background-color: #367E18;
+}
+
+.resa .right a:hover {
+    opacity: 50%;
+    background-color: #FFE9A0;
+    color: black;
+}
+    
+.resa .right .confirm {
+    text-align: center;
+}

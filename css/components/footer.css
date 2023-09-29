@@ -1,0 +1,94 @@
+.footer {
+    background: #000000; /* Black background */
+    color: #fff; /* Text color */
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: Arial, sans-serif;
+}
+
+/* Styles for the contact section on the left */
+.contact {
+    width: 20%; /* Adjust as needed */
+    margin-right: 0%ss; /* Add some spacing between sections */
+}
+
+.contact h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+/* Styles for the social media section in the center */
+.social {
+    width: 30%; /* Adjust as needed */
+}
+
+.social h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.social p {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    
+}
+/* Styles pour les icônes de médias sociaux */
+.social-links i {
+    font-size: 24px; /* Taille d'icône par défaut */
+    transition: transform 0.2s; /* Ajoute une transition fluide */
+    color: white;
+}
+
+.social-links i:hover {
+    transform: scale(1.2); /* Agrandit l'icône à 120% de sa taille d'origine */
+    color: white;
+    background-color: black;
+}
+
+.social-links li {
+    display: inline;
+    color: rgb(214, 30, 30);
+    margin-right: 10px;
+   
+}
+
+/* Styles for the legal section on the right */
+.legal {
+    width: 30%; /* Adjust as needed */
+}
+
+.legal h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.legal p {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.logo-FoodFlex {
+    width: 70px; 
+    height: auto; /* Hauteur automatique pour conserver les proportions */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-left: 2px;
+    padding-top: 25px;
+}

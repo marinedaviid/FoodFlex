@@ -1,0 +1,14 @@
+.container{
+    width: 900px;
+    margin: 0px auto;
+    text-align: center;
+
+}
+
+.container .find-us h1{
+    font-family: 'Sedgwick Ave Display', cursive;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
